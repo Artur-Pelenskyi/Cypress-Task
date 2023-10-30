@@ -5,11 +5,11 @@ on:
     inputs:
       CYPRESS_RECORD_KEY:
         description: 'Cypress cloud project record key'
-        default: '46216992-157f-44dc-b1db-3f975d019580'
+        default: '35b9470a-f0c7-4270-a568-6bcd4f235b5c'
         required: true
       CYPRESS_PROJECT_ID:
         description: 'Cypress cloud project id'
-        default: '1gn2b3'
+        default: 'h4k3r1'
         required: true
       specPath:
         type: choice
