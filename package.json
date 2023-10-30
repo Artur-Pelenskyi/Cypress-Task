@@ -1,0 +1,23 @@
+{
+  "name": "cypress-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open:JsonPlaceholder": "cypress open --config-file cypress.config.js",
+    "cy:run:JsonPlaceholder": "cypress run --config-file cypress.config.js --record --key 35b9470a-f0c7-4270-a568-6bcd4f235b5c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Artur-Pelenskyi/Cypress-Task.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Artur-Pelenskyi/Cypress-Task/issues"
+  },
+  "homepage": "https://github.com/Artur-Pelenskyi/Cypress-Task#readme",
+  "devDependencies": {
+    "cypress": "^13.3.3"
+  }
+}
